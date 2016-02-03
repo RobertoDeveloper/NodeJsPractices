@@ -12,5 +12,7 @@ How to wrap your queries in rollback transactions without obscuring your code
 
 How to commit your insert and update statements without obsuring your code 
 
+How to easily return the data retrieved from the database to your calling function
+
 
 
