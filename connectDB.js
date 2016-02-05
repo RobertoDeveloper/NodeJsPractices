@@ -27,7 +27,7 @@ function pgRun(runObject, callback) {
                 callback(null, res);
             }else {
                 //fallback / you can handle this as you wish.
-                callback({err:'Uncaught error'})
+                callback({err:'error'})
             }
         });
     });
