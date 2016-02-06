@@ -1,7 +1,6 @@
 //load module node-postgres
 var postgre = require('pg');
 
-
 //expose the function pgRun in order to run queries against your postgres database
 module.exports = {
     pgRun: pgRun
@@ -28,7 +27,7 @@ function pgRun(runObject, callback) {
                 callback(null, res);
             }else {
                 //fallback / you can handle this as you wish.
-                callback({err:'Uncaught error'})
+                callback({err:'error'})
             }
         });
     });
