@@ -1,6 +1,8 @@
 # NodeJsBestPractices
 This repo outlines best practices when developing in NodeJS.
 
+I have provided the callConnectDB.js file that demonstrates how to use the connectDB.js file as promised!
+
 # connectDB.js demonstrates the following How To's: 
 How to centralize your database access to your NodeJs Application
 
